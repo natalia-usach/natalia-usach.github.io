@@ -1,0 +1,81 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+	box-sizing: border-box;
+}
+
+header, section {
+	background-color: #C3EB78;
+	margin: 1%;
+	padding: 2%;
+}
+footer {
+	background-color: #BFB48F;
+	text-align: center;
+	padding: 1%;
+}
+h2 {
+	text-align: center;
+}
+.carousel-inner img {
+    width: 100%;
+  }
+.hobbies {
+	margin-bottom: 3%;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+#container {
+	flex:1;
+}
+footer a {
+	text-decoration: underline;
+}
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.75);
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.nav-item {
+	font-size: 150%;
+}
+.nav-link {
+color: white;
+}
+.nav-link:hover {
+	color: #00FF00;
+}
+header {
+	font-size: 110%;
+}
+#authorInfo {
+	text-align: justify;
+	background-color: white;
+	padding: 2%;
+}
+@media only screen and (max-width: 768px)
+{
+	header img {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	#authorPhoto {
+		margin-bottom: 3%;
+		padding: 3%;
+	}
+	#authorInfo {
+		font-size: 90%;
+	}
+	h1 {
+		text-align: center;
+	}
+}
